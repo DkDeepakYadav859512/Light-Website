@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-image: url(./img2.png);
+
+}
+:root{
+    --x: 400px;
+    --y: 400px;
+}
+.box{
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(150px at var(--x) var(--y), rgb(255, 255, 255),rgb(0,0,0,))
+}
